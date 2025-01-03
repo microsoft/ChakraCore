@@ -4,6 +4,7 @@
 // Licensed under the MIT license. See LICENSE.txt file in the project root for full license information.
 //-------------------------------------------------------------------------------------------------------
 #pragma once
+#include <new>
 
 // Disable the warning about no matching operator delete found, we don't need those for the Arena and Recycler
 #pragma warning(disable:4291)
